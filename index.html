@@ -1,7 +1,73 @@
-<!doctype html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AnimeCards</title><link rel="stylesheet" href="style.css"></head><body>
-<header><a class="logo" href="#">ANIME<span>CARDS</span></a><nav><a href="#home">Home</a><a href="#packs">Packs</a><a href="#collection">Collection</a></nav><div class="wallet">🪙 <b id="coins">100</b></div></header>
-<section id="home" class="hero"><div><p class="eyebrow">ANIME CHARACTER CARD COLLECTION</p><h1>Open packs.<br><i>Collect them all.</i></h1><p class="lead">Get 100 coins every day. Spend 10 coins on a pack and discover new characters. Duplicates give you coins back.</p><a class="button" href="#packs">Open a pack →</a></div><div class="hero-card" id="heroCard"></div></section>
-<section id="packs" class="section"><div class="heading"><div><p class="eyebrow">SHOP</p><h2>Card Packs</h2></div><div class="daily">+100 🪙 daily</div></div><div class="pack-grid"><div class="pack"><div class="pack-art">★<span>ANIME</span></div><h3>Anime Pack</h3><p>3 random cards</p><button class="button" onclick="openPack()">Open for 10 🪙</button></div></div></section>
-<section id="collection" class="section"><div class="heading"><div><p class="eyebrow">YOUR CARDS</p><h2>Collection</h2></div><span id="collectionCount"></span></div><div id="collectionGrid" class="grid"></div></section>
-<div id="opening" class="overlay hidden"><div class="opening-box"><p class="eyebrow">PACK OPENED</p><h2>Your cards</h2><div id="newCards" class="new-cards"></div><p id="packResult"></p><button class="button" onclick="closeOpening()">Continue</button></div></div>
-<footer>ANIMECARDS · COLLECT · DISCOVER · COMPLETE</footer><script src="script.js"></script></body></html>
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AnimeCards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <a class="logo" href="#">ANIME<span>CARDS</span></a>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#packs">Packs</a>
+        <a href="#collection">Collection</a>
+    </nav>
+    <div class="wallet">🪙 <b id="coins">100</b></div>
+</header>
+
+<section id="home" class="hero">
+    <div>
+        <p class="eyebrow">ANIME CHARACTER CARD COLLECTION</p>
+        <h1>Open packs.<br><i>Collect them all.</i></h1>
+        <p class="lead">Get 100 coins every day. Spend 10 coins on a pack and discover new characters. Duplicates give you coins back.</p>
+        <a class="button" href="#packs">Open a pack →</a>
+    </div>
+    <div class="hero-card" id="heroCard"></div>
+</section>
+
+<section id="packs" class="section">
+    <div class="heading">
+        <div>
+            <p class="eyebrow">SHOP</p>
+            <h2>Card Packs</h2>
+        </div>
+        <div class="daily">+100 🪙 daily</div>
+    </div>
+    <div class="pack-grid">
+        <div class="pack">
+            <div class="pack-art">★<span>ANIME</span></div>
+            <h3>Anime Pack</h3>
+            <p>3 random cards</p>
+            <button class="button" onclick="openPack()">Open for 10 🪙</button>
+        </div>
+    </div>
+</section>
+
+<section id="collection" class="section">
+    <div class="heading">
+        <div>
+            <p class="eyebrow">YOUR CARDS</p>
+            <h2>Collection</h2>
+        </div>
+        <span id="collectionCount"></span>
+    </div>
+    <div id="collectionGrid" class="grid"></div>
+</section>
+
+<div id="opening" class="overlay hidden">
+    <div class="opening-box">
+        <p class="eyebrow">PACK OPENED</p>
+        <h2>Your cards</h2>
+        <div id="newCards" class="new-cards"></div>
+        <p id="packResult"></p>
+        <button class="button" onclick="closeOpening()">Continue</button>
+    </div>
+</div>
+
+<footer>ANIMECARDS · COLLECT · DISCOVER · COMPLETE</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
