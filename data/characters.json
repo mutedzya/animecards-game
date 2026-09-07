@@ -1,0 +1,68 @@
+[
+  {
+    "id": "raiden-shogun",
+    "name": "Raiden Shogun",
+    "series": "Genshin Impact",
+    "rarity": 5,
+    "element": "Electro",
+    "weapon": "Polearm",
+    "role": "DPS",
+    "image": "characters/raiden-shogun.jpg",
+    "description": "Character description."
+  },
+  {
+    "id": "furina",
+    "name": "Furina",
+    "series": "Genshin Impact",
+    "rarity": 5,
+    "element": "Hydro",
+    "weapon": "Sword",
+    "role": "Support",
+    "image": "characters/furina.jpg",
+    "description": "Character description."
+  },
+  {
+    "id": "arlecchino",
+    "name": "Arlecchino",
+    "series": "Genshin Impact",
+    "rarity": 5,
+    "element": "Pyro",
+    "weapon": "Polearm",
+    "role": "DPS",
+    "image": "characters/arlecchino.jpg",
+    "description": "Character description."
+  },
+  {
+    "id": "hu-tao",
+    "name": "Hu Tao",
+    "series": "Genshin Impact",
+    "rarity": 5,
+    "element": "Pyro",
+    "weapon": "Polearm",
+    "role": "DPS",
+    "image": "characters/hu-tao.jpg",
+    "description": "Character description."
+  },
+  {
+    "id": "ayaka",
+    "name": "Kamisato Ayaka",
+    "series": "Genshin Impact",
+    "rarity": 5,
+    "element": "Cryo",
+    "weapon": "Sword",
+    "role": "DPS",
+    "image": "characters/ayaka.jpg",
+    "description": "Character description."
+  },
+  {
+    "id": "nahida",
+    "name": "Nahida",
+    "series": "Genshin Impact",
+    "rarity": 5,
+    "element": "Dendro",
+    "weapon": "Catalyst",
+    "role": "Support",
+    "image": "characters/nahida.jpg",
+    "description": "Character description."
+  }
+]

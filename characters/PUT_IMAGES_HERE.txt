@@ -1,0 +1,1 @@
+Put your images here. Filenames must match data/characters.json.
