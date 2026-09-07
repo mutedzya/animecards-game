@@ -1,68 +1,702 @@
 [
   {
-    "id": "raiden-shogun",
+    "id": "card-1",
     "name": "Raiden Shogun",
     "series": "Genshin Impact",
     "rarity": 5,
-    "element": "Electro",
-    "weapon": "Polearm",
-    "role": "DPS",
-    "image": "characters/raiden-shogun.jpg",
-    "description": "Character description."
+    "imageSearch": "Raiden Shogun"
   },
   {
-    "id": "furina",
+    "id": "card-2",
     "name": "Furina",
     "series": "Genshin Impact",
-    "rarity": 5,
-    "element": "Hydro",
-    "weapon": "Sword",
-    "role": "Support",
-    "image": "characters/furina.jpg",
-    "description": "Character description."
+    "rarity": 3,
+    "imageSearch": "Furina"
   },
   {
-    "id": "arlecchino",
+    "id": "card-3",
     "name": "Arlecchino",
     "series": "Genshin Impact",
-    "rarity": 5,
-    "element": "Pyro",
-    "weapon": "Polearm",
-    "role": "DPS",
-    "image": "characters/arlecchino.jpg",
-    "description": "Character description."
+    "rarity": 3,
+    "imageSearch": "Arlecchino"
   },
   {
-    "id": "hu-tao",
+    "id": "card-4",
     "name": "Hu Tao",
     "series": "Genshin Impact",
-    "rarity": 5,
-    "element": "Pyro",
-    "weapon": "Polearm",
-    "role": "DPS",
-    "image": "characters/hu-tao.jpg",
-    "description": "Character description."
+    "rarity": 4,
+    "imageSearch": "Hu Tao"
   },
   {
-    "id": "ayaka",
-    "name": "Kamisato Ayaka",
-    "series": "Genshin Impact",
-    "rarity": 5,
-    "element": "Cryo",
-    "weapon": "Sword",
-    "role": "DPS",
-    "image": "characters/ayaka.jpg",
-    "description": "Character description."
-  },
-  {
-    "id": "nahida",
+    "id": "card-5",
     "name": "Nahida",
     "series": "Genshin Impact",
+    "rarity": 3,
+    "imageSearch": "Nahida"
+  },
+  {
+    "id": "card-6",
+    "name": "Zhongli",
+    "series": "Genshin Impact",
+    "rarity": 3,
+    "imageSearch": "Zhongli"
+  },
+  {
+    "id": "card-7",
+    "name": "Yae Miko",
+    "series": "Genshin Impact",
     "rarity": 5,
-    "element": "Dendro",
-    "weapon": "Catalyst",
-    "role": "Support",
-    "image": "characters/nahida.jpg",
-    "description": "Character description."
+    "imageSearch": "Yae Miko"
+  },
+  {
+    "id": "card-8",
+    "name": "Navia",
+    "series": "Genshin Impact",
+    "rarity": 4,
+    "imageSearch": "Navia"
+  },
+  {
+    "id": "card-9",
+    "name": "Neuvillette",
+    "series": "Genshin Impact",
+    "rarity": 3,
+    "imageSearch": "Neuvillette"
+  },
+  {
+    "id": "card-10",
+    "name": "Mavuika",
+    "series": "Genshin Impact",
+    "rarity": 3,
+    "imageSearch": "Mavuika"
+  },
+  {
+    "id": "card-11",
+    "name": "Tanjiro Kamado",
+    "series": "Demon Slayer",
+    "rarity": 5,
+    "imageSearch": "Tanjiro Kamado"
+  },
+  {
+    "id": "card-12",
+    "name": "Nezuko Kamado",
+    "series": "Demon Slayer",
+    "rarity": 4,
+    "imageSearch": "Nezuko Kamado"
+  },
+  {
+    "id": "card-13",
+    "name": "Zenitsu Agatsuma",
+    "series": "Demon Slayer",
+    "rarity": 3,
+    "imageSearch": "Zenitsu Agatsuma"
+  },
+  {
+    "id": "card-14",
+    "name": "Inosuke Hashibira",
+    "series": "Demon Slayer",
+    "rarity": 3,
+    "imageSearch": "Inosuke Hashibira"
+  },
+  {
+    "id": "card-15",
+    "name": "Giyu Tomioka",
+    "series": "Demon Slayer",
+    "rarity": 3,
+    "imageSearch": "Giyu Tomioka"
+  },
+  {
+    "id": "card-16",
+    "name": "Shinobu Kocho",
+    "series": "Demon Slayer",
+    "rarity": 4,
+    "imageSearch": "Shinobu Kocho"
+  },
+  {
+    "id": "card-17",
+    "name": "Kyojuro Rengoku",
+    "series": "Demon Slayer",
+    "rarity": 5,
+    "imageSearch": "Kyojuro Rengoku"
+  },
+  {
+    "id": "card-18",
+    "name": "Mitsuri Kanroji",
+    "series": "Demon Slayer",
+    "rarity": 3,
+    "imageSearch": "Mitsuri Kanroji"
+  },
+  {
+    "id": "card-19",
+    "name": "Muichiro Tokito",
+    "series": "Demon Slayer",
+    "rarity": 3,
+    "imageSearch": "Muichiro Tokito"
+  },
+  {
+    "id": "card-20",
+    "name": "Tengen Uzui",
+    "series": "Demon Slayer",
+    "rarity": 4,
+    "imageSearch": "Tengen Uzui"
+  },
+  {
+    "id": "card-21",
+    "name": "Eren Yeager",
+    "series": "Attack on Titan",
+    "rarity": 5,
+    "imageSearch": "Eren Yeager"
+  },
+  {
+    "id": "card-22",
+    "name": "Mikasa Ackerman",
+    "series": "Attack on Titan",
+    "rarity": 3,
+    "imageSearch": "Mikasa Ackerman"
+  },
+  {
+    "id": "card-23",
+    "name": "Armin Arlert",
+    "series": "Attack on Titan",
+    "rarity": 3,
+    "imageSearch": "Armin Arlert"
+  },
+  {
+    "id": "card-24",
+    "name": "Levi",
+    "series": "Attack on Titan",
+    "rarity": 4,
+    "imageSearch": "Levi"
+  },
+  {
+    "id": "card-25",
+    "name": "Erwin Smith",
+    "series": "Attack on Titan",
+    "rarity": 3,
+    "imageSearch": "Erwin Smith"
+  },
+  {
+    "id": "card-26",
+    "name": "Hange Zoe",
+    "series": "Attack on Titan",
+    "rarity": 3,
+    "imageSearch": "Hange Zoe"
+  },
+  {
+    "id": "card-27",
+    "name": "Reiner Braun",
+    "series": "Attack on Titan",
+    "rarity": 5,
+    "imageSearch": "Reiner Braun"
+  },
+  {
+    "id": "card-28",
+    "name": "Annie Leonhart",
+    "series": "Attack on Titan",
+    "rarity": 4,
+    "imageSearch": "Annie Leonhart"
+  },
+  {
+    "id": "card-29",
+    "name": "Jean Kirstein",
+    "series": "Attack on Titan",
+    "rarity": 3,
+    "imageSearch": "Jean Kirstein"
+  },
+  {
+    "id": "card-30",
+    "name": "Sasha Blouse",
+    "series": "Attack on Titan",
+    "rarity": 3,
+    "imageSearch": "Sasha Blouse"
+  },
+  {
+    "id": "card-31",
+    "name": "Yuji Itadori",
+    "series": "Jujutsu Kaisen",
+    "rarity": 5,
+    "imageSearch": "Yuji Itadori"
+  },
+  {
+    "id": "card-32",
+    "name": "Megumi Fushiguro",
+    "series": "Jujutsu Kaisen",
+    "rarity": 4,
+    "imageSearch": "Megumi Fushiguro"
+  },
+  {
+    "id": "card-33",
+    "name": "Nobara Kugisaki",
+    "series": "Jujutsu Kaisen",
+    "rarity": 3,
+    "imageSearch": "Nobara Kugisaki"
+  },
+  {
+    "id": "card-34",
+    "name": "Satoru Gojo",
+    "series": "Jujutsu Kaisen",
+    "rarity": 3,
+    "imageSearch": "Satoru Gojo"
+  },
+  {
+    "id": "card-35",
+    "name": "Suguru Geto",
+    "series": "Jujutsu Kaisen",
+    "rarity": 3,
+    "imageSearch": "Suguru Geto"
+  },
+  {
+    "id": "card-36",
+    "name": "Yuta Okkotsu",
+    "series": "Jujutsu Kaisen",
+    "rarity": 4,
+    "imageSearch": "Yuta Okkotsu"
+  },
+  {
+    "id": "card-37",
+    "name": "Maki Zenin",
+    "series": "Jujutsu Kaisen",
+    "rarity": 5,
+    "imageSearch": "Maki Zenin"
+  },
+  {
+    "id": "card-38",
+    "name": "Toge Inumaki",
+    "series": "Jujutsu Kaisen",
+    "rarity": 3,
+    "imageSearch": "Toge Inumaki"
+  },
+  {
+    "id": "card-39",
+    "name": "Kento Nanami",
+    "series": "Jujutsu Kaisen",
+    "rarity": 3,
+    "imageSearch": "Kento Nanami"
+  },
+  {
+    "id": "card-40",
+    "name": "Ryomen Sukuna",
+    "series": "Jujutsu Kaisen",
+    "rarity": 4,
+    "imageSearch": "Ryomen Sukuna"
+  },
+  {
+    "id": "card-41",
+    "name": "Monkey D. Luffy",
+    "series": "One Piece",
+    "rarity": 5,
+    "imageSearch": "Monkey D. Luffy"
+  },
+  {
+    "id": "card-42",
+    "name": "Roronoa Zoro",
+    "series": "One Piece",
+    "rarity": 3,
+    "imageSearch": "Roronoa Zoro"
+  },
+  {
+    "id": "card-43",
+    "name": "Nami",
+    "series": "One Piece",
+    "rarity": 3,
+    "imageSearch": "Nami"
+  },
+  {
+    "id": "card-44",
+    "name": "Sanji",
+    "series": "One Piece",
+    "rarity": 4,
+    "imageSearch": "Sanji"
+  },
+  {
+    "id": "card-45",
+    "name": "Nico Robin",
+    "series": "One Piece",
+    "rarity": 3,
+    "imageSearch": "Nico Robin"
+  },
+  {
+    "id": "card-46",
+    "name": "Tony Tony Chopper",
+    "series": "One Piece",
+    "rarity": 3,
+    "imageSearch": "Tony Tony Chopper"
+  },
+  {
+    "id": "card-47",
+    "name": "Usopp",
+    "series": "One Piece",
+    "rarity": 5,
+    "imageSearch": "Usopp"
+  },
+  {
+    "id": "card-48",
+    "name": "Trafalgar Law",
+    "series": "One Piece",
+    "rarity": 4,
+    "imageSearch": "Trafalgar Law"
+  },
+  {
+    "id": "card-49",
+    "name": "Portgas D. Ace",
+    "series": "One Piece",
+    "rarity": 3,
+    "imageSearch": "Portgas D. Ace"
+  },
+  {
+    "id": "card-50",
+    "name": "Boa Hancock",
+    "series": "One Piece",
+    "rarity": 3,
+    "imageSearch": "Boa Hancock"
+  },
+  {
+    "id": "card-51",
+    "name": "Naruto Uzumaki",
+    "series": "Naruto",
+    "rarity": 5,
+    "imageSearch": "Naruto Uzumaki"
+  },
+  {
+    "id": "card-52",
+    "name": "Sasuke Uchiha",
+    "series": "Naruto",
+    "rarity": 4,
+    "imageSearch": "Sasuke Uchiha"
+  },
+  {
+    "id": "card-53",
+    "name": "Sakura Haruno",
+    "series": "Naruto",
+    "rarity": 3,
+    "imageSearch": "Sakura Haruno"
+  },
+  {
+    "id": "card-54",
+    "name": "Kakashi Hatake",
+    "series": "Naruto",
+    "rarity": 3,
+    "imageSearch": "Kakashi Hatake"
+  },
+  {
+    "id": "card-55",
+    "name": "Itachi Uchiha",
+    "series": "Naruto",
+    "rarity": 3,
+    "imageSearch": "Itachi Uchiha"
+  },
+  {
+    "id": "card-56",
+    "name": "Hinata Hyuga",
+    "series": "Naruto",
+    "rarity": 4,
+    "imageSearch": "Hinata Hyuga"
+  },
+  {
+    "id": "card-57",
+    "name": "Gaara",
+    "series": "Naruto",
+    "rarity": 5,
+    "imageSearch": "Gaara"
+  },
+  {
+    "id": "card-58",
+    "name": "Jiraiya",
+    "series": "Naruto",
+    "rarity": 3,
+    "imageSearch": "Jiraiya"
+  },
+  {
+    "id": "card-59",
+    "name": "Madara Uchiha",
+    "series": "Naruto",
+    "rarity": 3,
+    "imageSearch": "Madara Uchiha"
+  },
+  {
+    "id": "card-60",
+    "name": "Minato Namikaze",
+    "series": "Naruto",
+    "rarity": 4,
+    "imageSearch": "Minato Namikaze"
+  },
+  {
+    "id": "card-61",
+    "name": "Izuku Midoriya",
+    "series": "My Hero Academia",
+    "rarity": 5,
+    "imageSearch": "Izuku Midoriya"
+  },
+  {
+    "id": "card-62",
+    "name": "Katsuki Bakugo",
+    "series": "My Hero Academia",
+    "rarity": 3,
+    "imageSearch": "Katsuki Bakugo"
+  },
+  {
+    "id": "card-63",
+    "name": "Shoto Todoroki",
+    "series": "My Hero Academia",
+    "rarity": 3,
+    "imageSearch": "Shoto Todoroki"
+  },
+  {
+    "id": "card-64",
+    "name": "Ochaco Uraraka",
+    "series": "My Hero Academia",
+    "rarity": 4,
+    "imageSearch": "Ochaco Uraraka"
+  },
+  {
+    "id": "card-65",
+    "name": "All Might",
+    "series": "My Hero Academia",
+    "rarity": 3,
+    "imageSearch": "All Might"
+  },
+  {
+    "id": "card-66",
+    "name": "Tomura Shigaraki",
+    "series": "My Hero Academia",
+    "rarity": 3,
+    "imageSearch": "Tomura Shigaraki"
+  },
+  {
+    "id": "card-67",
+    "name": "Dabi",
+    "series": "My Hero Academia",
+    "rarity": 5,
+    "imageSearch": "Dabi"
+  },
+  {
+    "id": "card-68",
+    "name": "Himiko Toga",
+    "series": "My Hero Academia",
+    "rarity": 4,
+    "imageSearch": "Himiko Toga"
+  },
+  {
+    "id": "card-69",
+    "name": "Eijiro Kirishima",
+    "series": "My Hero Academia",
+    "rarity": 3,
+    "imageSearch": "Eijiro Kirishima"
+  },
+  {
+    "id": "card-70",
+    "name": "Momo Yaoyorozu",
+    "series": "My Hero Academia",
+    "rarity": 3,
+    "imageSearch": "Momo Yaoyorozu"
+  },
+  {
+    "id": "card-71",
+    "name": "Sung Jin-Woo",
+    "series": "Solo Leveling",
+    "rarity": 5,
+    "imageSearch": "Sung Jin-Woo"
+  },
+  {
+    "id": "card-72",
+    "name": "Cha Hae-In",
+    "series": "Solo Leveling",
+    "rarity": 4,
+    "imageSearch": "Cha Hae-In"
+  },
+  {
+    "id": "card-73",
+    "name": "Igris",
+    "series": "Solo Leveling",
+    "rarity": 3,
+    "imageSearch": "Igris"
+  },
+  {
+    "id": "card-74",
+    "name": "Beru",
+    "series": "Solo Leveling",
+    "rarity": 3,
+    "imageSearch": "Beru"
+  },
+  {
+    "id": "card-75",
+    "name": "Thomas Andre",
+    "series": "Solo Leveling",
+    "rarity": 3,
+    "imageSearch": "Thomas Andre"
+  },
+  {
+    "id": "card-76",
+    "name": "Go Gun-Hee",
+    "series": "Solo Leveling",
+    "rarity": 4,
+    "imageSearch": "Go Gun-Hee"
+  },
+  {
+    "id": "card-77",
+    "name": "Ashborn",
+    "series": "Solo Leveling",
+    "rarity": 5,
+    "imageSearch": "Ashborn"
+  },
+  {
+    "id": "card-78",
+    "name": "Antares",
+    "series": "Solo Leveling",
+    "rarity": 3,
+    "imageSearch": "Antares"
+  },
+  {
+    "id": "card-79",
+    "name": "Joo-Hee",
+    "series": "Solo Leveling",
+    "rarity": 3,
+    "imageSearch": "Joo-Hee"
+  },
+  {
+    "id": "card-80",
+    "name": "Yoo Jinho",
+    "series": "Solo Leveling",
+    "rarity": 4,
+    "imageSearch": "Yoo Jinho"
+  },
+  {
+    "id": "card-81",
+    "name": "Denji",
+    "series": "Chainsaw Man",
+    "rarity": 5,
+    "imageSearch": "Denji"
+  },
+  {
+    "id": "card-82",
+    "name": "Power",
+    "series": "Chainsaw Man",
+    "rarity": 3,
+    "imageSearch": "Power"
+  },
+  {
+    "id": "card-83",
+    "name": "Makima",
+    "series": "Chainsaw Man",
+    "rarity": 3,
+    "imageSearch": "Makima"
+  },
+  {
+    "id": "card-84",
+    "name": "Aki Hayakawa",
+    "series": "Chainsaw Man",
+    "rarity": 4,
+    "imageSearch": "Aki Hayakawa"
+  },
+  {
+    "id": "card-85",
+    "name": "Kobeni Higashiyama",
+    "series": "Chainsaw Man",
+    "rarity": 3,
+    "imageSearch": "Kobeni Higashiyama"
+  },
+  {
+    "id": "card-86",
+    "name": "Himeno",
+    "series": "Chainsaw Man",
+    "rarity": 3,
+    "imageSearch": "Himeno"
+  },
+  {
+    "id": "card-87",
+    "name": "Kishibe",
+    "series": "Chainsaw Man",
+    "rarity": 5,
+    "imageSearch": "Kishibe"
+  },
+  {
+    "id": "card-88",
+    "name": "Reze",
+    "series": "Chainsaw Man",
+    "rarity": 4,
+    "imageSearch": "Reze"
+  },
+  {
+    "id": "card-89",
+    "name": "Angel Devil",
+    "series": "Chainsaw Man",
+    "rarity": 3,
+    "imageSearch": "Angel Devil"
+  },
+  {
+    "id": "card-90",
+    "name": "Quanxi",
+    "series": "Chainsaw Man",
+    "rarity": 3,
+    "imageSearch": "Quanxi"
+  },
+  {
+    "id": "card-91",
+    "name": "Ichigo Kurosaki",
+    "series": "Bleach",
+    "rarity": 5,
+    "imageSearch": "Ichigo Kurosaki"
+  },
+  {
+    "id": "card-92",
+    "name": "Rukia Kuchiki",
+    "series": "Bleach",
+    "rarity": 4,
+    "imageSearch": "Rukia Kuchiki"
+  },
+  {
+    "id": "card-93",
+    "name": "Orihime Inoue",
+    "series": "Bleach",
+    "rarity": 3,
+    "imageSearch": "Orihime Inoue"
+  },
+  {
+    "id": "card-94",
+    "name": "Uryu Ishida",
+    "series": "Bleach",
+    "rarity": 3,
+    "imageSearch": "Uryu Ishida"
+  },
+  {
+    "id": "card-95",
+    "name": "Renji Abarai",
+    "series": "Bleach",
+    "rarity": 3,
+    "imageSearch": "Renji Abarai"
+  },
+  {
+    "id": "card-96",
+    "name": "Byakuya Kuchiki",
+    "series": "Bleach",
+    "rarity": 4,
+    "imageSearch": "Byakuya Kuchiki"
+  },
+  {
+    "id": "card-97",
+    "name": "Toshiro Hitsugaya",
+    "series": "Bleach",
+    "rarity": 5,
+    "imageSearch": "Toshiro Hitsugaya"
+  },
+  {
+    "id": "card-98",
+    "name": "Kenpachi Zaraki",
+    "series": "Bleach",
+    "rarity": 3,
+    "imageSearch": "Kenpachi Zaraki"
+  },
+  {
+    "id": "card-99",
+    "name": "Sosuke Aizen",
+    "series": "Bleach",
+    "rarity": 3,
+    "imageSearch": "Sosuke Aizen"
+  },
+  {
+    "id": "card-100",
+    "name": "Yoruichi Shihouin",
+    "series": "Bleach",
+    "rarity": 4,
+    "imageSearch": "Yoruichi Shihouin"
   }
 ]
